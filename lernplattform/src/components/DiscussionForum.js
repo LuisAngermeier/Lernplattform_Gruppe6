@@ -1,13 +1,13 @@
-// src/components/DiscussionForum.js
+// src/components/StudyGroups.js
 import React from 'react';
 
-function DiscussionForum() {
+function StudyGroups() {
   return (
-    <div>
-      <h2>Diskussionsforum</h2>
-      <p>Stellen Sie Fragen und geben Sie Antworten zu verschiedenen Themen.</p>
+    <div className="container mt-5">
+      <h2>Organisation von Lerngruppen</h2>
+      <p>Hier können Lerngruppen organisiert und koordiniert werden.</p>
     </div>
   );
 }
 
-export default DiscussionForum;
+export default StudyGroups;
