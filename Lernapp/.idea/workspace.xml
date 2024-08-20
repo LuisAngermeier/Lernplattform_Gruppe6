@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4f788f2-3ab7-4ea3-8ed4-3e88eec74cca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lernapp-frontend/src/components/AddComment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lernapp-frontend/src/components/AddPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lernapp-frontend/src/components/PostDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lernapp-frontend/src/components/PostList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/components/DiscussionForum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/components/MaterialExchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/components/StudyGroups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lernplattform/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2kv6010ctlw6WtONVMd4jUcnQVt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Lernapp.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Luisa/Documents/Git/Lernplattform_Gruppe6/Lernapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Lernapp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Lernapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lernapp.Lernapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4f788f2-3ab7-4ea3-8ed4-3e88eec74cca" name="Changes" comment="" />
+      <created>1724151477015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724151477015</updated>
+      <workItem from="1724151478045" duration="3435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
