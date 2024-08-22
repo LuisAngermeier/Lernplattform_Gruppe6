@@ -7,6 +7,7 @@ import AddPost from './components/AddPost';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -63,11 +64,9 @@ const App = () => {
             } />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
-          </Routes>
-          <footer>
-            <p>&copy; 2024 Lernapp. All rights reserved.</p>
-          </footer>
+          </Routes> 
         </div>
+        <Footer />
       </Router>
   );
 };
