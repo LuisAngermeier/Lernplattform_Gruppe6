@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import logo from './assets/lernapp-logo.png';
+
 
 const App = () => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -36,16 +38,20 @@ const App = () => {
   const filteredPosts = posts.filter(post =>
       post.fach.toLowerCase().includes(fachFilter.toLowerCase())
   );
-
+ 
   return (
       <Router>
-        <header>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
-            <Link to="/contact">Contact</Link>
-          </nav>
-        </header>
+      <header>
+        <img src={logo} alt="Logo" className='logo' />
+        <nav>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/contact">Contact</Link></li>          
+          </ul>        
+        </nav>
+        
+    </header>
         <div className="App">
           <Routes>
             <Route path="/" element={
