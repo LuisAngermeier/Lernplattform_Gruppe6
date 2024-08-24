@@ -9,8 +9,13 @@ import java.util.List;
 
 @Service
 public class CommentService {
+
     @Autowired
     private CommentRepository commentRepository;
+
+    public List<Comment> getAllComments() {
+        return commentRepository.findAll();
+    }
 
     public List<Comment> getCommentsByPostId(String postId) {
         return commentRepository.findByPostId(postId);
@@ -18,5 +23,23 @@ public class CommentService {
 
     public Comment addComment(Comment comment) {
         return commentRepository.save(comment);
+    }
+
+    public Comment updateComment(String id, Comment comment) {
+        if (commentRepository.existsById(id)) {
+            comment.setId(id);
+            return commentRepository.save(comment);
+        } else {
+            return null;
+        }
+    }
+
+    public boolean deleteCommentById(String id) {
+        if (commentRepository.existsById(id)) {
+            commentRepository.deleteById(id);
+            return true;
+        } else {
+            return false;
+        }
     }
 }
