@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "axios": "^1.7.4",
-    "@fortawesome/react-fontawesome": "^1.2.3",
-    "@fortawesome/free-solid-svg-icons": "^6.0.0"
-  }
-}
